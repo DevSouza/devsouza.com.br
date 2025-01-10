@@ -103,6 +103,8 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "HTML",
+    "CSS",
     "Java",
     "Spring",
     "JavaScript",
@@ -118,7 +120,9 @@ export const RESUME_DATA = {
     "Github",
     "TDD",
     "BDD",
-    "RESTful"
+    "RESTful",
+    "Wildfly",
+    "JEE",
   ],
   projects: [
     {
