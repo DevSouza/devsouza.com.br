@@ -82,6 +82,12 @@ export const RESUME_DATA = {
       start: "2022",
       end: "2022",
     },
+    {
+      school: "Algaworks",
+      name: "Sistemas Comerciais JavaEE com CDI, JPA E Primefaces",
+      start: "2017",
+      end: "2018",
+    },
   ],
   work: [
     {
@@ -152,6 +158,30 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/DevSouza/clone-tabnews",
+      },
+    },
+    {
+      title: "Pedido Venda - Algaworks",
+      techStack: [
+        "Fullstack Developer",
+        "Java",
+        "JavaEE",
+        "JSF",
+        "Primefaces",
+        "JPA",
+        "Hibernate",
+        "TomCat",
+        "Maven",
+        "JasperReports",
+        "CDI",
+        "MySQL"
+      ],
+      description:
+        "Projeto desenvolvido no curso Sistemas Comerciais JavaEE com CDI, JPA E Primefaces – Algaworks",
+      logo: ParabolLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/DevSouza/pedido-venda-algaworks",
       },
     }
   ],
