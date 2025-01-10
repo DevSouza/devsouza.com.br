@@ -87,7 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-28 print:hidden">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
@@ -194,8 +194,8 @@ export default function Page() {
             })}
           </div>
         </Section>
-
-        <Section className="print-force-new-page scroll-mb-16">
+        {/*Classname="print-force-new-page" imprimir em outra pagina*/}
+        <Section className="scroll-mb-16">
           <h2 className="text-xl font-bold">Projetos</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
