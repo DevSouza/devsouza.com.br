@@ -2,6 +2,9 @@
   "name": "devsouza.com.br",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=24"
+  },
   "type": "module",
   "scripts": {
     "content:assets": "node scripts/copy-content-assets.mjs",
