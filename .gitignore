@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+# gerado a partir de /contents pelo scripts/copy-content-assets.mjs
+public/contents

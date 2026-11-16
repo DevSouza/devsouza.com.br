@@ -1,0 +1,57 @@
+# status: lendo | lido | quero-ler
+# Campos opcionais: year (ano da leitura), rating (1 a 5), review, cover (/livros/capa.jpg em /public), url
+# Capas: Open Library (covers.openlibrary.org)
+- title: Código Limpo
+  author: Robert C. Martin
+  status: lido
+  cover: /livros/codigo-limpo.jpg
+
+- title: Arquitetura Limpa
+  author: Robert C. Martin
+  status: lido
+  cover: /livros/arquitetura-limpa.jpg
+
+- title: O Codificador Limpo
+  author: Robert C. Martin
+  status: lido
+  cover: /livros/codificador-limpo.jpg
+
+- title: O Programador Pragmático
+  author: Andrew Hunt e David Thomas
+  status: lendo
+  cover: /livros/programador-pragmatico.jpg
+
+- title: Refatoração
+  author: Martin Fowler
+  status: lido
+  cover: /livros/refatoracao.jpg
+
+- title: "Padrões de Projeto: Soluções Reutilizáveis de Software Orientado a Objetos"
+  author: Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides
+  status: lido
+  cover: /livros/padroes-de-projeto.jpg
+
+- title: "Domain-Driven Design: Atacando as Complexidades no Coração do Software"
+  author: Eric Evans
+  status: lido
+  cover: /livros/ddd.jpg
+
+- title: Implementando Domain-Driven Design
+  author: Vaughn Vernon
+  status: lido
+  cover: /livros/implementando-ddd.jpg
+
+- title: "Estruturas de Dados e Algoritmos com JavaScript: Escreva um Código JavaScript Complexo e Eficaz Usando a Mais Recente ECMAScript"
+  author: Loiane Groner
+  status: lido
+  cover: /livros/estruturas.jpg
+
+- title: O Mítico Homem-Mês
+  author: Frederick P. Brooks Jr.
+  status: lido
+  cover: /livros/mitico.jpg
+
+- title: A Startup Enxuta
+  author: Eric Ries
+  status: lido
+  cover: /livros/startup-enxuta.jpg

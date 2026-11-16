@@ -1,0 +1,20 @@
+# date no formato AAAA-MM (ou só AAAA) · campos opcionais: hours, url, credentialId
+- name: Modelagem de Dados UML (Análise & Projeto Orientado a Objetos)
+  issuer: Udemy
+  date: "2024"
+
+- name: RabbitMQ na Prática
+  issuer: Udemy
+  date: "2024"
+
+- name: Testes com JUnit 5, Mockito e Spring Boot
+  issuer: Udemy
+  date: "2024"
+
+- name: Decoder Project
+  issuer: Decoder
+  date: "2022"
+
+- name: Sistemas Comerciais JavaEE com CDI, JPA e Primefaces
+  issuer: Algaworks
+  date: "2018"

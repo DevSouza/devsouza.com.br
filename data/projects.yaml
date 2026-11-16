@@ -1,0 +1,55 @@
+# Portfólio — featured: true aparece na home
+- name: Sistema de gestão — Odonto-Vida
+  description: >-
+    Plataforma web que substituiu o sistema desktop legado de uma rede com 89 clínicas
+    odontológicas. Agenda, tratamentos, contratos e auditoria, com integrações de pagamento
+    (Vindi, Santander, Itaú), nota fiscal eletrônica e envio de SMS e WhatsApp. Atuo da
+    modelagem ao deploy e à sustentação em produção. Código proprietário.
+  tags: [Java, Java EE, Spring, WildFly, APIs REST, Integrações]
+  featured: true
+  status: Em produção
+
+- name: Decode Project
+  description: >-
+    Plataforma de cursos em microsserviços com Spring Boot: os serviços se comunicam por
+    eventos no RabbitMQ e expõem APIs REST.
+    Projeto de estudo do curso Decoder.
+  tags: [Java, Spring Boot, RabbitMQ, Microsserviços, PostgreSQL, APIs REST]
+  year: 2022
+  featured: true
+  status: Back-end
+  links:
+    - label: GitHub
+      url: https://github.com/DevSouza/decode-project
+
+- name: Clone do TabNews
+  description: >-
+    Réplica do tabnews.com.br construída do zero até produção no curso.dev, com testes
+    automatizados (TDD) e banco PostgreSQL em Docker.
+  tags: [JavaScript, React, Next.js, PostgreSQL, Docker, TDD]
+  status: Fullstack
+  links:
+    - label: GitHub
+      url: https://github.com/DevSouza/clone-tabnews
+
+- name: devsouza.com.br
+  description: >-
+    Este site: Next.js com geração estática, posts em Markdown com suporte a vários
+    idiomas, feed RSS, tema claro/escuro e layout mobile first.
+  tags: [Next.js, TypeScript, Tailwind CSS]
+  year: 2026
+  status: Em produção
+  links:
+    - label: Site
+      url: https://devsouza.com.br
+
+- name: Pedido de Venda — Algaworks
+  description: >-
+    Sistema comercial de pedidos de venda com JSF e Primefaces, persistência com JPA e
+    relatórios em JasperReports. Projeto do curso Sistemas Comerciais Java EE da Algaworks.
+  tags: [Java EE, JSF, Primefaces, JPA, Hibernate, JasperReports, MySQL]
+  year: 2018
+  status: Fullstack
+  links:
+    - label: GitHub
+      url: https://github.com/DevSouza/pedido-venda-algaworks
