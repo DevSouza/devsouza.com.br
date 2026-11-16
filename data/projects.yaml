@@ -42,6 +42,8 @@
   links:
     - label: Site
       url: https://devsouza.com.br
+    - label: GitHub
+      url: https://github.com/DevSouza/devsouza.com.br
 
 - name: Pedido de Venda — Algaworks
   description: >-
