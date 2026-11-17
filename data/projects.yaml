@@ -24,7 +24,7 @@
 
 - name: Clone do TabNews
   description: >-
-    Réplica do tabnews.com.br construída do zero até produção no curso.dev, com testes
+    Réplica do tabnews.com.br construída do zero até a produção no curso.dev, com testes
     automatizados (TDD) e banco PostgreSQL em Docker.
   tags: [JavaScript, React, Next.js, PostgreSQL, Docker, TDD]
   status: Fullstack

@@ -57,7 +57,5 @@ skills:
     items: [React, Next.js, TypeScript, JavaScript, HTML e CSS]
   - group: Banco de dados
     items: [PostgreSQL, MySQL, SQL, Modelagem de dados]
-  - group: Integrações
-    items: [Gateways de pagamento, APIs bancárias, Nota fiscal eletrônica, SMS e WhatsApp]
   - group: Infra & Qualidade
-    items: [Docker, WildFly, Deploy e servidores, JUnit, Mockito, TDD, Git]
+    items: [Docker, WildFly, JUnit, Mockito, TDD, Git]

@@ -1,23 +1,13 @@
 ---
 title: Hello, world! Welcome to my blog
 description: The very first post — why I created this space and what you'll find here.
-tags: [personal, nextjs]
+tags: [personal]
 cover: ./capa.svg
 ---
 
-After postponing it for a long time, the blog is finally live! 🎉
+Hi, my name is Andre Souza, and welcome to my little corner of the internet.
 
-Here I'll write about **web development**, **career** and the **books** I'm reading.
+This is my first blog post — I finally got it off the ground!
+Here I'll mainly write about **Programming**, **Software Architecture** and the **books** I'm reading.
 
-## How this blog works
-
-Each post lives in a folder following `contents/year/month/day/number-slug`, and
-translations are just extra files like `index.en.md`.
-
-```ts
-export function greet(name: string) {
-  return `Hello, ${name}!`;
-}
-```
-
-> Writing is the best way to learn. Let's go! 🚀
+My goal with this blog is to document what I learn and keep a record of it for posterity.
