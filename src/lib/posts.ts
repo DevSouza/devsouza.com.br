@@ -147,15 +147,26 @@ export const tagSlug = (tag: string) =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
 
-export function getAllTags() {
-  const map = new Map<string, { name: string; count: number }>();
-  for (const p of getAllPosts())
-    for (const name of p.primary.tags) {
-      const slug = tagSlug(name);
-      const cur = map.get(slug) ?? { name, count: 0 };
-      cur.count++;
-      map.set(slug, cur);
+/**
+ * Tags de todos os idiomas (ou só de `lang`, se informado).
+ * `count` = número de posts com a tag; `lang` = idioma da primeira variante onde a tag aparece.
+ */
+export function getAllTags(lang?: string) {
+  const map = new Map<string, { name: string; count: number; lang: string }>();
+  for (const p of getAllPosts()) {
+    const seen = new Set<string>();
+    for (const v of p.variants) {
+      if (lang && v.lang !== lang) continue;
+      for (const name of v.tags) {
+        const slug = tagSlug(name);
+        if (seen.has(slug)) continue;
+        seen.add(slug);
+        const cur = map.get(slug) ?? { name, count: 0, lang: v.lang };
+        cur.count++;
+        map.set(slug, cur);
+      }
     }
+  }
   return [...map.entries()]
     .map(([slug, v]) => ({ slug, ...v }))
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));

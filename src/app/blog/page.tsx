@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllPosts, getAllTags } from "@/lib/posts";
+import { defaultLocale } from "@/lib/i18n";
 import { PageHeader } from "@/components/PageHeader";
 import { PostCard } from "@/components/PostCard";
 import { RssIcon } from "@/components/Icons";
@@ -13,7 +14,8 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const posts = getAllPosts();
-  const tags = getAllTags();
+  // A listagem do /blog é em português; as tags de outros idiomas continuam acessíveis pelos posts traduzidos.
+  const tags = getAllTags(defaultLocale);
 
   const byYear = posts.reduce<Record<string, typeof posts>>((acc, p) => {
     (acc[p.year] ??= []).push(p);

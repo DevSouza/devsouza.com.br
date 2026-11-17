@@ -2,8 +2,17 @@ import Link from "next/link";
 import type { Post } from "@/lib/posts";
 import { formatDate, localeInfo, t } from "@/lib/i18n";
 
-export function PostCard({ post, compact = false }: { post: Post; compact?: boolean }) {
-  const v = post.primary;
+export function PostCard({
+  post,
+  compact = false,
+  lang,
+}: {
+  post: Post;
+  compact?: boolean;
+  /** Idioma preferido do card; cai na versão principal se o post não tiver tradução. */
+  lang?: string;
+}) {
+  const v = (lang && post.variants.find((x) => x.lang === lang)) || post.primary;
   return (
     <article className="card card-hover group relative flex flex-col overflow-hidden">
       {v.cover && !compact && (

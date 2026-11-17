@@ -24,7 +24,10 @@ export default async function TagPage({ params }: Props) {
   const { tag } = await params;
   const info = getAllTags().find((t) => t.slug === tag);
   if (!info) notFound();
-  const posts = getAllPosts().filter((p) => p.primary.tags.some((t) => tagSlug(t) === tag));
+  const hasTag = (tags: string[]) => tags.some((t) => tagSlug(t) === tag);
+  const posts = getAllPosts().filter((p) => p.variants.some((v) => hasTag(v.tags)));
+  // Mostra cada post na versão (idioma) que contém a tag.
+  const langOf = (p: (typeof posts)[number]) => p.variants.find((v) => hasTag(v.tags))?.lang;
 
   return (
     <>
@@ -34,7 +37,7 @@ export default async function TagPage({ params }: Props) {
       <PageHeader eyebrow={`${posts.length} post(s)`} title={`#${info.name}`} />
       <div className="grid gap-5 md:grid-cols-2">
         {posts.map((p) => (
-          <PostCard key={p.dir} post={p} />
+          <PostCard key={p.dir} post={p} lang={langOf(p)} />
         ))}
       </div>
     </>
