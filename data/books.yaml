@@ -55,3 +55,13 @@
   author: Eric Ries
   status: lido
   cover: /livros/startup-enxuta.jpg
+
+- title: "Arquitetura de Software: As Partes Difíceis"
+  author: Neal Ford, Mark Richards, Pramod Sadalage e Zhamak Dehghani
+  status: quero-ler
+  cover: /livros/arquitetura-partes-dificeis.jpg
+
+- title: Fundamentos da Arquitetura de Software (2ª edição)
+  author: Mark Richards e Neal Ford
+  status: quero-ler
+  cover: /livros/fundamentos-arquitetura-2ed.jpg
