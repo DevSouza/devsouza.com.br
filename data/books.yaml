@@ -56,6 +56,11 @@
   status: lido
   cover: /livros/startup-enxuta.jpg
 
+- title: Linux, a Bíblia
+  author: Christopher Negus e Christine Bresnahan
+  status: lido
+  cover: /livros/linux-biblia.jpg
+
 - title: "Arquitetura de Software: As Partes Difíceis"
   author: Neal Ford, Mark Richards, Pramod Sadalage e Zhamak Dehghani
   status: quero-ler
@@ -65,3 +70,8 @@
   author: Mark Richards e Neal Ford
   status: quero-ler
   cover: /livros/fundamentos-arquitetura-2ed.jpg
+
+- title: Entendendo Algoritmos (2ª edição)
+  author: Aditya Y. Bhargava
+  status: quero-ler
+  cover: /livros/entendendo-algoritmos.jpg
