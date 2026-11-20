@@ -61,6 +61,16 @@
   status: lido
   cover: /livros/linux-biblia.jpg
 
+- title: Lógica de Programação e Algoritmos com JavaScript (2ª edição)
+  author: Edécio Fernando Iepsen
+  status: lido
+  cover: /livros/logica-programacao-javascript.jpg
+
+- title: Entendendo Algoritmos (2ª edição)
+  author: Aditya Y. Bhargava
+  status: lido
+  cover: /livros/entendendo-algoritmos.jpg
+
 - title: "Arquitetura de Software: As Partes Difíceis"
   author: Neal Ford, Mark Richards, Pramod Sadalage e Zhamak Dehghani
   status: quero-ler
@@ -70,8 +80,3 @@
   author: Mark Richards e Neal Ford
   status: quero-ler
   cover: /livros/fundamentos-arquitetura-2ed.jpg
-
-- title: Entendendo Algoritmos (2ª edição)
-  author: Aditya Y. Bhargava
-  status: quero-ler
-  cover: /livros/entendendo-algoritmos.jpg
