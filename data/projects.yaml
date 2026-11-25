@@ -45,6 +45,21 @@
     - label: GitHub
       url: https://github.com/DevSouza/devsouza.com.br
 
+- name: Capivarada
+  description: >-
+    Análise de partidas de xadrez que roda inteira no navegador, sem servidor: cole um PGN
+    e veja a precisão de cada jogador e a classificação de cada lance, com o Stockfish
+    compilado para WebAssembly. As partidas ficam salvas no IndexedDB e dá para explorar
+    variantes no próprio tabuleiro.
+  tags: [Next.js, TypeScript, React, Tailwind CSS, Stockfish, WebAssembly]
+  year: 2026
+  status: Em produção
+  links:
+    - label: Site
+      url: https://capivarada.devsouza.com.br
+    - label: GitHub
+      url: https://github.com/DevSouza/capivarada
+
 - name: Pedido de Venda — Algaworks
   description: >-
     Sistema comercial de pedidos de venda com JSF e Primefaces, persistência com JPA e
