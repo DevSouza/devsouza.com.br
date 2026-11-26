@@ -4,11 +4,11 @@
   start: "2016"
   location: Rio de Janeiro · Presencial
   description: |
-    Rede de franquias odontológicas com 89 unidades e centenas de usuários ativos no sistema de gestão.
-    • Migração do sistema legado (executável desktop em Delphi) para uma aplicação web em Java EE.
-    • Novos módulos de agenda, tratamentos, contratos e auditoria, do levantamento com as áreas de negócio à entrega.
-    • Integrações com meios de pagamento (Vindi, Santander, Itaú), emissão de notas fiscais nos serviços do governo e envio de SMS e WhatsApp para pacientes.
-    • Responsável pelo ciclo completo: modelagem, desenvolvimento back-end e front-end, deploy, configuração de servidores e sustentação em produção.
-    • Resultados: mais estabilidade, consultas mais rápidas e redução do custo de infraestrutura, mesmo com o sistema em crescimento constante.
-    • Início em 2016 como auxiliar administrativo (pesquisas, documentação e pequenos códigos em Delphi), com transição para a área de desenvolvimento.
+    Rede de franquias odontológicas com 89 clínicas. Faço parte da equipe que desenvolve e mantém o sistema de gestão que centenas de pessoas usam no dia a dia das unidades.
+    • A equipe migrou o sistema legado, um executável desktop em Delphi, para uma aplicação web em Java EE e Spring rodando no WildFly.
+    • Participo da criação dos módulos de agenda, tratamentos, contratos e auditoria em todas as etapas: levantamento de requisitos com as áreas de negócio, modelagem do banco, back-end, front-end e entrada em produção.
+    • Trabalhei nas integrações com meios de pagamento (Vindi, Santander e Itaú), na emissão de nota fiscal eletrônica nos serviços do governo e no envio de SMS e WhatsApp para pacientes.
+    • Também atuo na infraestrutura: deploy, configuração de servidores e sustentação em produção.
+    • Com a nova plataforma, a equipe deixou o sistema mais estável, com consultas mais rápidas e menor custo de infraestrutura, mesmo com o uso crescendo sem parar.
+    • Entrei em 2016 como auxiliar administrativo, fazendo pesquisas, documentação e pequenos códigos em Delphi, e depois passei para a área de desenvolvimento.
   stack: [Java, Java EE, Spring, WildFly, APIs REST, Integrações de pagamento, Delphi]

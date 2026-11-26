@@ -4,9 +4,9 @@ role: Desenvolvedor Fullstack Java
 location: Rio de Janeiro, Brasil (GMT-3)
 avatar: /avatar.jpg # foto em /public
 headline: >-
-  Desenvolvo e mantenho, de ponta a ponta, o sistema de gestão de uma rede com 89
-  clínicas odontológicas e centenas de usuários ativos: da análise e modelagem ao
-  código Java, ao deploy e à infraestrutura de produção.
+  Faço parte da equipe que desenvolve e mantém o sistema de gestão de uma rede com 89
+  clínicas odontológicas e centenas de usuários ativos, atuando da análise e modelagem
+  ao código Java, ao deploy e à infraestrutura de produção.
 available: true # true exibe o selo "Aberto a novas oportunidades"
 email: devsouza01@gmail.com
 
@@ -24,8 +24,8 @@ about: |
 
   Entrei na **Franquias Odonto-Vida** em 2016 como auxiliar administrativo, cuidando
   de pesquisas, documentação e pequenos códigos em Delphi. Alguns anos depois passei a
-  atuar como programador com uma missão clara: **migrar o sistema legado, um executável
-  desktop, para a web com Java EE**.
+  atuar como programador, em uma equipe com uma missão clara: **migrar o sistema legado,
+  um executável desktop, para a web com Java EE**.
 
   Concluída a migração, seguimos evoluindo a plataforma, hoje usada por **89 unidades
   e centenas de usuários ativos**, com novos módulos e integrações:
@@ -39,8 +39,9 @@ about: |
 
   Atuo no ciclo completo: entendo o problema com as áreas de negócio, modelo a solução,
   desenvolvo back-end e front-end, faço o deploy, configuro servidores e acompanho o
-  sistema em produção. Nesse período o sistema ganhou **estabilidade, consultas mais
-  rápidas e menor custo de infraestrutura**, mesmo crescendo continuamente.
+  sistema em produção. Nesse período, o trabalho da equipe trouxe **estabilidade,
+  consultas mais rápidas e menor custo de infraestrutura**, mesmo com o sistema
+  crescendo continuamente.
 
   ## O que busco
 
