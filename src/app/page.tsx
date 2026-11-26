@@ -24,7 +24,6 @@ export default function Home() {
   const allProjects = getProjects();
   const projects = allProjects.filter((p) => p.featured).slice(0, 2);
   const posts = getAllPosts().slice(0, siteConfig.postsPerHomePage);
-  const current = experience.find((e) => !e.end);
   const years = yearsOfExperience(experience.map((e) => e.start));
   // os 3 primeiros itens de cada grupo de habilidades (ordem definida em data/profile.yaml)
   const stack = profile.skills?.flatMap((g) => g.items.slice(0, 3)) ?? [];
@@ -55,7 +54,6 @@ export default function Home() {
             </h1>
             <p className="enter mt-2 font-display text-xl font-medium text-fg-soft sm:text-2xl" style={delay(100)}>
               {profile.role}
-              {current && <span className="text-muted"> · {current.company}</span>}
             </p>
             <p className="enter mt-5 text-lg leading-relaxed text-fg-soft" style={delay(200)}>
               {profile.headline}
