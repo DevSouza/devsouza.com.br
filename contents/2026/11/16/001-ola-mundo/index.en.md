@@ -2,7 +2,7 @@
 title: Hello, world! Welcome to my blog
 description: The very first post — why I created this space and what you'll find here.
 tags: [personal]
-cover: ./capa.svg
+cover: ./capa.en.svg
 ---
 
 Hi, my name is Andre Souza, and welcome to my little corner of the internet.
